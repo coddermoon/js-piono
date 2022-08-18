@@ -11,7 +11,7 @@ const playSound = (url)=>{
 
 for(const key of keys ){
     
-    const newUrl = `./piono-sound-24-keys/key${number}.mp3`
+    const newUrl = `./piono-sound-24-keys/key18.mp3`
     
     key.addEventListener('click',()=>{
         playSound(newUrl)
